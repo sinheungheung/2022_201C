@@ -8,10 +8,10 @@ typedef struct {
 void AddValueToPoint(Point p);
 int main(void)
 {
-	Point point; // stack ÇÒ´ç
+	Point point; // stack í• ë‹¹
 	point.x = 5.0f;
 	point.y = 10.0f;
-	// call by value¶ó¼­ °ªÀÌ ¾È¹Ù²ñ
+	// call by valueë¼ì„œ ê°’ì´ ì•ˆë°”ë€œ
 	AddValueToPoint(point);
 	printf("%1.f, %1.f\n", point.x, point.y);
 	return 0;
